@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.19.4 - 2024-03-29
+
+- [#264](https://github.com/php-http/discovery/pull/264) - Do not report a general conflict with `sebastian/comparator` but make sure we install the correct version for our tests.
+
 ## 1.19.3 - 2024-03-28
 
 - [#261](https://github.com/php-http/discovery/pull/261) - explicitly mark nullable parameters as nullable (avoid deprecation in PHP 8.4)
