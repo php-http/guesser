@@ -31,7 +31,7 @@ class Psr18Client extends Psr17Factory implements ClientInterface
         ?ServerRequestFactoryInterface $serverRequestFactory = null,
         ?StreamFactoryInterface $streamFactory = null,
         ?UploadedFileFactoryInterface $uploadedFileFactory = null,
-        ?UriFactoryInterface $uriFactory = null
+        ?UriFactoryInterface $uriFactory = null,
     ) {
         $requestFactory ?? $requestFactory = $client instanceof RequestFactoryInterface ? $client : null;
         $responseFactory ?? $responseFactory = $client instanceof ResponseFactoryInterface ? $client : null;
