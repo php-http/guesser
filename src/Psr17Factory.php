@@ -54,7 +54,7 @@ class Psr17Factory implements RequestFactoryInterface, ResponseFactoryInterface,
         ?ServerRequestFactoryInterface $serverRequestFactory = null,
         ?StreamFactoryInterface $streamFactory = null,
         ?UploadedFileFactoryInterface $uploadedFileFactory = null,
-        ?UriFactoryInterface $uriFactory = null,
+        ?UriFactoryInterface $uriFactory = null
     ) {
         $this->requestFactory = $requestFactory;
         $this->responseFactory = $responseFactory;
