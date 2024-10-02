@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.20.0 - 2024-10-02
+
+- [#268](https://github.com/php-http/discovery/pull/268) - Do not attempt to update lock file when it is not existing.
+- [#267](https://github.com/php-http/discovery/pull/267) - Test with PHP 8.3 and 8.4
+- [#266](https://github.com/php-http/discovery/pull/266) - If wrapped client implements factories, use those instead of discovering new factories.
+
 ## 1.19.4 - 2024-03-29
 
 - [#264](https://github.com/php-http/discovery/pull/264) - Do not report a general conflict with `sebastian/comparator` but make sure we install the correct version for our tests.
