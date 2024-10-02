@@ -452,7 +452,7 @@ EOPHP
 
     private function updateComposerLock(Composer $composer, IOInterface $io)
     {
-        if ($composer->getConfig()->get('lock') === false) {
+        if (false === $composer->getConfig()->get('lock')) {
             return;
         }
 
